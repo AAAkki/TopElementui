@@ -1,0 +1,30 @@
+{
+  "name": "top-elementui",
+  "private": false,
+  "version": "1.0.5",
+  "main": "./dist/top-elementui.umd.js",
+  "module": "./dist/top-elementui.mjs",
+  "esports": {
+    ".": {
+      "import": "./dist/top-elementui.mjs",
+      "require": "./dist/top-elementui.umd.js"
+    }
+  },
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "sass": "^1.68.0",
+    "top-elementui": "^1.0.4",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
+  }
+}
